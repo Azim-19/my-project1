@@ -1,5 +1,5 @@
 <div id="mySidebar" class="col-auto bg-dark text-white offcanvas-lg offcanvas-start">
-        <div class="p-4">
+        <div class="p-4 no-print">
           <a href="#" class="navbar-brand">
             <div class="row">
               <h5 class="">My Company</h5>
