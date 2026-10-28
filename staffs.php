@@ -99,7 +99,6 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            </button>
                             <a href="#" class="btn btn-sm btn-danger">
                                 <i class="bi bi-trash"></i>
                             </a>
