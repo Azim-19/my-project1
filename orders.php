@@ -4,7 +4,7 @@ ob_start();
  
 <div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body">
-        <h2 class="mb-1">order</h2>
+        <h2 class="mb-1">Order</h2>
         <p class="text-muted mb-0">Create and manage customer orders</p>
     </div>
 </div>
@@ -102,7 +102,7 @@ ob_start();
                         <td>Jane Smith</td>
                         <td>Alice Johnson</td>
                         <td>
-                            <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
                             <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">

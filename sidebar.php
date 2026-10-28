@@ -2,13 +2,13 @@
         <div class="p-4 no-print">
           <a href="#" class="navbar-brand">
             <div class="row">
-              <h5 class="">My Company</h5>
+              <h5 class="">ClearVoice Audio</h5>
             </div>
           </a>
           <hr>                  
           <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
-              <a href="" class="text-decoration-none text-white">
+              <a href="home.php" class="text-decoration-none text-white">
                 <i class="bi bi-house-fill me-2"></i>
                 Home
               </a>
@@ -20,25 +20,25 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="product.php" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Product
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="customer.php" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Customers
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="staffs.php" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Staff
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="orders.php" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Orders
               </a>
