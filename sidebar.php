@@ -22,6 +22,12 @@
             <li class="nav-item mb-3">
               <a href="" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
+                Product
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="" class="text-decoration-none text-white">
+                <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Customers
               </a>
             </li>

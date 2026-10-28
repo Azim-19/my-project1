@@ -5,7 +5,7 @@ ob_start();
 <div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body">
         <h2 class="mb-1">Customer</h2>
-        <p class="text-muted mb-0">Manage and track all Customer</p>
+        <p class="text-muted mb-0">Manage and track all your Customer</p>
     </div>
 </div>
 
@@ -34,11 +34,11 @@ ob_start();
                     <input name="customer_num" id="customer_num" type="text" class="form-control" placeholder="Enter Customer ID" value="" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="name" class="form-label">Name <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="customer_name" class="form-label">Name <span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="customer_name" id="customer_name" type="text" class="form-control" placeholder="Enter Customer Name" value="" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="gender" class="form-label">Gender <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="customer_gender" class="form-label">Gender <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="customer_gender" id="customer_gender" class="form-select" required>
                         <option value="">Select Gender</option>
                         <option value="male">Male</option>
@@ -109,8 +109,6 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
                             </button>
                             <a href="#" class="btn btn-sm btn-danger">
                                 <i class="bi bi-trash"></i>
