@@ -70,7 +70,9 @@ ob_start();
 </div>
  
 <style>
-
+@page {
+    margin: 0;
+}
 
 @media print {
     #mySidebar,
