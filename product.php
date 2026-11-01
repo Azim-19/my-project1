@@ -45,10 +45,11 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Razer">Razer</option>
+                        <option value="Fifine">Fifine</option>
+                        <option value="Maono">Maono</option>
+                        <option value="HyperX">HyperX</option>
+                        <option value="HyperX">Fantech</option>
                     </select>
                 </div>
  
@@ -62,16 +63,12 @@ ob_start();
                 </div>
  
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                    <label for="connection" class="form-label">Connection Type <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="connection" id="connection" class="form-select" required>
+                        <option value="">Select Type</option>
+                        <option value="USB-A">USB-A</option>
+                        <option value="USB-C">USB-C</option>
+                        <option value="USB-A + XLR">USB-A + XLR</option>
                     </select>
                 </div>
                  
@@ -125,15 +122,21 @@ ob_start();
                         <th>Name</th>
                         <th>Price</th>
                         <th>Brand</th>
+                        <th>Condition</th>
+                        <th>Connection</th>
+                        <th>Quantity</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>SoloCast</td>
+                        <td>$158.00</td>
+                        <td>HyperX</td>
+                        <td>New</td>
+                        <td>USB-A</td>
+                        <td>1</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>

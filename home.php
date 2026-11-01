@@ -16,25 +16,25 @@ ob_start();
         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
     </div>
-    <div class="carousel-inner rounded-3">
+    <div class="carousel-inner rounded-3 bg-light">
         <div class="carousel-item active">
-            <img src="images/mic1.jpg" class="d-block w-100" alt="Condenser microphone in studio">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Crystal Clear Recording</h5>
+            <img src="images/HyperX_QuadCast.jpg" class="d-block mx-auto mt-3 object-fit-contain" style="height:250px;" alt="HyperX QuadCast USB condenser microphone">
+            <div class="carousel-caption position-static d-none d-md-block text-dark pb-4">
+                <h5 class="fw-bold">Crystal Clear Recording</h5>
                 <p>Capture every detail of your voice and instruments.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/mic2.jpg" class="d-block w-100" alt="Podcast setup">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Perfect for Podcasts</h5>
+            <img src="images/Fifine_K669B.jpg" class="d-block mx-auto mt-3 object-fit-contain" style="height:250px;" alt="Fifine K669B USB condenser microphone">
+            <div class="carousel-caption position-static d-none d-md-block text-dark pb-4">
+                <h5 class="fw-bold">Perfect for Podcasts</h5>
                 <p>Warm, natural sound for every episode.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/mic3.jpg" class="d-block w-100" alt="Live vocal recording">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Built for Musicians</h5>
+            <img src="images/Maono_AU-PM461TR.jpg" class="d-block mx-auto mt-3 object-fit-contain" style="height:250px;" alt="Maono AU-PM461TR USB condenser microphone">
+            <div class="carousel-caption position-static d-none d-md-block text-dark pb-4">
+                <h5 class="fw-bold">Built for Musicians</h5>
                 <p>Professional vocals and acoustic instruments, at home or in the studio.</p>
             </div>
         </div>
